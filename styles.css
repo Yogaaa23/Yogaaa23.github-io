@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('PPP.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.about-section, .skills-section, .projects-section {
+    background-color: #f9f9f9;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-info {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 1px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
